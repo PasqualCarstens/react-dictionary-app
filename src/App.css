@@ -7,3 +7,12 @@
   margin: 30px 0;
   text-align: center;
 }
+
+.App-footer a {
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.App-footer .github-icon {
+  font-size: 22px;
+}
