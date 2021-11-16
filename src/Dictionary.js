@@ -40,7 +40,18 @@ export default function Dictionary() {
       <section>
         <h1>What word do you want to look up?</h1>
         <form onSubmit={search} className="text-center">
-          <input type="search" onChange={handleKeywordChange} />
+          <div class="row">
+            <div class="col-9">
+              <input type="search" onChange={handleKeywordChange} />
+            </div>
+            <div class="col-3">
+              <input
+                type="submit"
+                value="Search"
+                class="btn btn-outline-dark w-100"
+              />
+            </div>
+          </div>
         </form>
         <div className="hint">suggested words: sunrise, wine, tree...</div>
       </section>
