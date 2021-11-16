@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div className="App">
       <div clssName="container">
-        <header className="App-header">Dictionary</header>
+        <header className="App-header">Dictionary 📖</header>
         <Dictionary />
         <footer className="App-footer">
           <i className="fab fa-github github-icon"></i>{" "}
